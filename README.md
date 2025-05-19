@@ -1,6 +1,35 @@
+
+
+
+
 # 🧠 Mental Health Mood Tracker with ML Insights
 
 A simple, interactive app to track daily mood, sleep, stress, and journaling — with AI-powered mood insights and trend visualization.
+
+# 🔗 Live Preview (goal)
+
+A Streamlit app that lets users:
+
+Log daily mood, energy, sleep, stress, etc.
+
+Visualize mood trends over time.
+
+Get AI-powered insights (e.g., burnout risk, mood predictions).
+
+Optionally journal and get sentiment feedback (OpenAI optional).
+
+# ⚙️ Tech Stack
+Frontend: Streamlit
+
+Backend: pandas, scikit-learn, matplotlib
+
+ML models: Logistic Regression / Time Series + optional GPT sentiment
+
+Data storage: Local CSV / optional Firebase / AWS DynamoDB (later)
+
+Deployment: Streamlit Cloud (free)
+
+
 
 ## Features
 - Daily logging of mood, sleep, stress, notes
